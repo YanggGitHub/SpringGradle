@@ -6,8 +6,6 @@ import javax.validation.constraints.Max;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotEmpty;
 
-@RestController
-
 public class User {
         private int id;
         @NotEmpty(message = "Email cannot be empty")
