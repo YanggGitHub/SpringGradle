@@ -8,26 +8,26 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Data
 public class ErrorResponse {
-    public ErrorResponse(String message, String deails) {
-        this.message = message;
-        this.deails = deails;
-    }
-
-    public String getMessage() {
-        return message;
-    }
-
-    public void setMessage(String message) {
-        this.message = message;
-    }
-
-    public String getDeails() {
-        return deails;
-    }
-
-    public void setDeails(String deails) {
-        this.deails = deails;
-    }
+//    public ErrorResponse(String message, String deails) {
+//        this.message = message;
+//        this.deails = deails;
+//    }
+//
+//    public String getMessage() {
+//        return message;
+//    }
+//
+//    public void setMessage(String message) {
+//        this.message = message;
+//    }
+//
+//    public String getDeails() {
+//        return deails;
+//    }
+//
+//    public void setDeails(String deails) {
+//        this.deails = deails;
+//    }
 
     private String message;
     private String deails;

@@ -21,14 +21,14 @@ public class SwaggerConfig {
                 .title("使用Swagger2 Docs")
                 .description("API Document ")
                 .termsOfServiceUrl("http://localost:8080")
-                .contact(new Contact("Fiona", "test.com", "fiona@test.com"))
+                .contact(new Contact("Fiona", "test.com", "yang@test.com"))
                 .version("1.0.0")
                 .build();
 
         return new Docket(DocumentationType.SWAGGER_2)
                 .apiInfo(apiInfo)
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.fiona.demo"))
+                .apis(RequestHandlerSelectors.basePackage("com.yang.demo"))
                 .paths(PathSelectors.any())
                 .build();
     }
